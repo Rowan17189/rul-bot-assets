@@ -1,0 +1,56 @@
+[
+  {
+    "dataset": "raw",
+    "model": "RF_raw",
+    "cv_rmse_mean": 44.66863235908208,
+    "cv_rmse_std": 2.9349288233438036,
+    "val_rmse": 35.233471405404515,
+    "test_rmse": 35.2093724296371,
+    "test_score": 67416.82280387457
+  },
+  {
+    "dataset": "raw",
+    "model": "XGB_raw",
+    "cv_rmse_mean": 45.86494445800781,
+    "cv_rmse_std": 2.8996588662555793,
+    "val_rmse": 36.32310113111558,
+    "test_rmse": 36.276091397101766,
+    "test_score": 466160.2424967056
+  },
+  {
+    "dataset": "raw",
+    "model": "LSTM_raw",
+    "cv_rmse_mean": NaN,
+    "cv_rmse_std": NaN,
+    "val_rmse": 27.33571310460914,
+    "test_rmse": 32.06237998490923,
+    "test_score": 80968.80064841683
+  },
+  {
+    "dataset": "eng25",
+    "model": "RF_eng25",
+    "cv_rmse_mean": 14.294033072689226,
+    "cv_rmse_std": 0.9128935074613592,
+    "val_rmse": 11.951314397185183,
+    "test_rmse": 13.91236818645753,
+    "test_score": 338.13446089062296
+  },
+  {
+    "dataset": "eng25",
+    "model": "XGB_eng25",
+    "cv_rmse_mean": 14.07654266357422,
+    "cv_rmse_std": 1.0787666369625328,
+    "val_rmse": 11.770409572479041,
+    "test_rmse": 14.506932414564753,
+    "test_score": 375.84522808576827
+  },
+  {
+    "dataset": "eng25",
+    "model": "LSTM_eng25",
+    "cv_rmse_mean": NaN,
+    "cv_rmse_std": NaN,
+    "val_rmse": 11.510988376049847,
+    "test_rmse": 15.411763538317686,
+    "test_score": 329.6576505238568
+  }
+]
